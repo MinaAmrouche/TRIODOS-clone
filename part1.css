@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  font-family: Arial, sans-serif;
+  display: flex;
+  padding: 5px 10%;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+
+  padding: 12px 16px;
+  font-size: 26px;
+  cursor: pointer;
+}
+i,
+.inloggen {
+  color: rgb(0, 0, 107);
+}
+.logo {
+  width: 214px;
+  margin: 5px auto;
+  justify-self: center;
+}
+
+.inloggen {
+  justify-self: flex-end;
+  margin: 15px;
+  text-decoration: none;
+}
+.introduction {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.223),
+      rgba(0, 0, 0, 0.223)
+    ),
+    url(images/triodoshippo_heroImageFullWidthSmallDesktop.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+}
+.text-block {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 15%;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+}
+.text-block > h1 {
+  text-shadow: 0 0 48px rgb(0 0 0 / 75%);
+  font-size: 48px;
+  letter-spacing: -1px;
+}
+.text-block > p {
+  text-shadow: 0 0 48px rgb(0 0 0 / 75%);
+
+  line-height: 1.4;
+}
+.text-block > button {
+  background-color: white;
+  color: rgb(0, 0, 107);
+  margin: 10%;
+  padding: 2% 5%;
+  border: 2px solid grey;
+  border-radius: 6%;
+  font: 1.2rem bold;
+  cursor: pointer;
+}
+.text-block > button:hover {
+  border: 2px solid rgb(0, 0, 107);
+  transition: all 0.2s ease-in-out;
+}
+.clients {
+  width: 50%;
+  margin: 3% auto 5%;
+}
+.clients > p {
+  font-size: 17px;
+  color: rgb(0, 0, 107);
+  text-align: center;
+  letter-spacing: 0.05rem;
+}
+@media (max-width: 667px) {
+  header,
+  .text-block,
+  .clients > p {
+    font-size: smaller;
+  }
+  .text-block {
+    position: relative;
+
+    top: 35%;
+    width: 90%;
+  }
+  .search {
+    display: none;
+  }
+  .clients {
+    width: 90%;
+  }
+  .text-block > h1 {
+    font-size: 36px;
+  }
+  .text-block > button {
+    font-size: 16px;
+  }
+}
