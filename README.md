@@ -7,4 +7,3 @@
 - Each part should be in a separate branch.
 - In the end, everything should be merged together; 
 - Help each other! Everyone is responsible for the final result.
- 

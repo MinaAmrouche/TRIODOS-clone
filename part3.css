@@ -1,6 +1,8 @@
 .link-container{
     max-width: 80%;
     margin: 0 auto;
+    margin-bottom: 45px;
+    margin-top: 45px;
 }
 .link-board{
     background-color: #4bf0b9;
@@ -60,5 +62,57 @@
     border: 2px solid #00006b;
 }
 .fa-solid:hover{
+    border: 2px solid #00006b;
+}
+.map{
+    background-image: url("map_background.jpg");
+    background-size: cover;
+    height:  580px;
+    width: 1435px;
+    opacity: 80%;
+    margin: 80px -10px 80px -10px;
+    padding-top: 12px;
+}
+.map_top{
+    text-align: center;
+    line-height: 1,3em;
+    color: #fff;
+    text-shadow: 4px 8px 5px rgba(0, 0, 0, 0.927);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 190px; 
+}
+.p_map{
+    background-color: transparent;
+    text-align: center;
+    font-size: 45px;
+    line-height: 2.9rem;
+    letter-spacing: 1.5px;
+    color: #fff;
+    text-shadow: 7px 8px 7px rgba(0, 0, 0, 0.927);
+    margin-bottom: 24px;
+    max-width: 65%;
+    margin: 0 auto;
+}
+.link_button_map{
+    background-color: #fff;
+    padding: 10px 30px;
+    line-height: 2.5rem;
+    border-radius: 6px;
+    border: 2px solid rgba(0,0,107,.3);
+    color: #00006b;
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-top: 60px;
+    
+}
+.map_picture{
+    text-decoration: none;
+    color: #00006b;
+    letter-spacing: 1.2px;
+    font-size: 18px;
+    font-weight:700 ;
+}
+.link_button_map:hover{
     border: 2px solid #00006b;
 }
