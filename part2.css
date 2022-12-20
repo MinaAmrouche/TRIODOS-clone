@@ -1,0 +1,343 @@
+/* section 1*/
+
+@font-face {
+    font-family: akkurat-light;
+    src: url(fonts/akkurat-light.woff);
+}
+@font-face {
+    font-family: akkurat-bold;
+    src: url(fonts/akkurat-bold.woff);
+}
+
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+font-family: akkurat-light;
+}
+
+.container {
+    background-color:#E6F2F5 ;
+}
+
+.attach {
+    
+}
+
+.box {
+    padding-bottom: 24px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: center;
+    height:250px;
+    width: 1004px;
+    margin:auto;
+}
+
+.basicflex {
+    color:#00006B;
+    min-width: 33%;
+    font-
+}
+
+.basicflex h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.rich-text ul li {
+    font-size: 17px; 
+    padding-bottom: 10px;
+    letter-spacing: 0.5px;
+    list-style-position: inside;
+    list-style-image: url(greater.svg);
+}
+
+.rich-text ul li :hover {
+    border-bottom: 2px solid #00006B ;
+}
+
+.rich-text ul li a {
+    border-bottom: 2px solid rgba(0,0,107,.3);
+    display: inline;
+    font-weight: 700;
+    outline: none;
+    padding-bottom: 1px;
+    transition: .2s ease;
+    vertical-align: baseline;
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+    
+/*Button part*/
+
+.container-2 {
+    background-color: #E6F2F5;
+}
+
+.row-2 {
+    padding:0 12px 0 12px ;
+    width: 1004px;
+    margin:auto;
+}
+
+.largebutton {
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+button {
+    width: 100%;
+    margin: auto;
+    height:96px;
+    padding-left: 72px;
+    padding-right: 72px;
+    background-color: white;
+    border:none;
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    color: #00006B;
+    border-radius: 6px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.fa-solid {
+    position: absolute;
+    border: 2px solid grey;
+    padding: 10px;
+    border-radius: 50%;
+    top: 30%;
+    right:100px;
+    color:#00006B;
+    transition: 0.7s;
+}
+
+.fa-solid:hover {
+    border-color: #00006B;
+}
+
+/*Text Part*/
+
+.container-3 {
+    background-color: #E6F2F5;
+    padding:50px 0 50px 0;
+}
+
+.row-3 {
+    width: 1004px;
+    margin:auto;
+}
+
+.text-box {
+    width: 645px;
+    height: 270px;
+    margin: auto;
+    background-color: #FFF5B9;
+    color: #00006B;
+    padding:25px;
+}
+
+.text-box h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.small-text p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.small-text a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: #00006B;
+    border-bottom: 2px solid rgba(0,0,107,.3);
+}
+
+.small-text a::before {    
+    content: ">";
+}
+
+.small-text a:hover {
+    border-bottom: 2px solid #00006B ;
+}
+
+/* Card Section*/
+
+.container-4 {
+    height: 400px;
+    background: linear-gradient(180deg, rgba(0,98,13,1) 0%, rgba(0,130,159,1) 100%);
+}
+
+.row-4 {
+    max-width: 1004px;
+    margin:auto;
+    position: relative;
+}
+
+.row-4 h1 {
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    color:white;
+    font-size: 26px;
+}
+
+.card-items {
+    display: flex;
+    gap: 25px;
+    color:white;
+    position: absolute;
+}
+
+.card-items h3 {
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+
+.card-items h4 {
+    font-size: 20px;
+}
+
+.item {
+    width:310px;
+    height:420px;
+    border-radius: 30px;
+    padding: 24px;
+    cursor: pointer;
+}
+
+.item a {
+    position: absolute;
+    color: gray;
+    bottom:20px;
+    font-size: 30px;
+}
+
+.card-1 {
+    
+    background-size: cover;
+    background-image: url(https://www.triodos.nl/binaries/content/gallery/tbnl/flex-card-images/homepage/over-triodos-bank---helen-1.jpeg/over-triodos-bank---helen-1.jpeg/triodoshippo%3AflexRegular);
+}
+
+.fa-sharp {
+    color:#00006B;
+    border:2px solid gray;
+    padding:5px 12px;
+    border-radius: 50%;
+    transition: 0.9s;
+}
+
+.fa-sharp:hover {
+    border-color:#00006B;
+}
+
+.card-2 {
+    background-size: contain;
+    background-image: url(https://www.triodos.nl/binaries/content/gallery/tbnl/flex-card-images/divers/campagne/fc-begin---homepagejpg/fc-begin---homepagejpg/triodoshippo%3AflexRegular);
+}
+
+.card-3 {
+    background-size: cover;
+    background-image: url(https://www.triodos.nl/binaries/content/gallery/tbnl/flex-card-images/homepage/campagne-frauderen-zo-werkt-het-edit.jpg/campagne-frauderen-zo-werkt-het-edit.jpg/triodoshippo%3AflexRegular);
+}
+
+/*Responsive*/
+
+@media screen and (min-width:600px)and (max-width:1024px){
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.row-3 {
+    width: auto;
+}
+
+.text-box h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.small-text p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 24px;
+}
+
+.row-2 {
+    width:auto;
+}
+
+.largebutton {
+    width:60%;
+}
+
+.fa-solid {
+    right: 30px;
+}
+
+button {
+    font-size: 15px;
+}
+
+}
+
+
+
+@media screen and (max-width:650px){
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;       
+}
+
+.row-3 {
+   width: auto;
+}
+
+.text-box {
+    width: auto;
+    height: auto;
+    margin: auto;
+
+}
+
+
+.row-2 {
+    width:auto;
+}
+
+.largebutton {
+    width: 90%;
+}
+
+.fa-solid {
+    right: 20px;
+}
+
+button {
+    font-size: 15px;
+}
+
+
+}
